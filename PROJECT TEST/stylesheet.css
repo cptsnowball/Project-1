@@ -55,17 +55,17 @@ footer{
 }
 .logo{
     margin-top: .1em;
-    width: 4vw;
+    width: 5vw;
     height: 5vw;
     float: right;
     margin-right: 1em;
+    margin-left: 1em;
 }
 .nav-bar{
     display: block;
-    text-align: right;
     max-width: 10%;
     height: 100%; 
-    width: 0; 
+    width: 250px; 
     position: fixed; 
     z-index: 8888; 
     top: 0; 
@@ -73,16 +73,13 @@ footer{
     background-color: darkblue; 
     overflow-x: hidden; 
     padding-top: 6%;
-    transition: 0.5s; 
 }
 .nav-bar a{
-    text-align: right;
-    max-width: 15%;
+    text-align: center;
     text-decoration: none;
     font-size: 120%;
-    color: #818181;
+    color: #f1f1f1;
     display: block;
-    transition: 0.3s;
 }
 .nav-bar a:hover {
     color: #f1f1f1;
@@ -98,8 +95,8 @@ footer{
 .nav-icon{
     background-image: url(./images/hamburger.png);
     display: inline-block;
-    width: 1.5em;
-    height: 1.5em;
+    width: 1.75em;
+    height: 1.75em;
     vertical-align: middle;
     background-repeat: no-repeat;
     background-position: center;
